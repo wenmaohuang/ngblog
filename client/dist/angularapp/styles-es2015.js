@@ -338,7 +338,7 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\webstudy\angularblog\client\src\styles.less */"./src/styles.less");
+module.exports = __webpack_require__(/*! E:\webstudy\ngblog\client\src\styles.less */"./src/styles.less");
 
 
 /***/ })

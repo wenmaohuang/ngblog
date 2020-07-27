@@ -353,7 +353,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! E:\webstudy\angularblog\client\src\styles.less */
+    /*! E:\webstudy\ngblog\client\src\styles.less */
     "./src/styles.less");
     /***/
   }
