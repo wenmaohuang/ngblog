@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-page.component.less']
 })
 export class HomePageComponent implements OnInit {
+  bgheight:any = window.innerHeight
+  
+  constructor() { 
+    // this.bgheight = window.innerHeight
+    console.log(this,'a/');
+  }
 
-  constructor() { }
+
 
   ngOnInit(): void {
+    console.log(this,'a,');
+    console.log(window,'a.');
+    
+
   }
 
 }

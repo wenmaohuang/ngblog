@@ -1,1 +1,26 @@
-<p>home-page works!</p>
+<!-- <p>home-page works!</p> -->
+<div class="bgimg" [ngStyle]="{'height':bgheight+'px'}">{{bgheight}}</div>
+<footer>
+  <div class="about">
+    <p>风移影动</p>
+    <p>自由自在的流浪</p>
+    <p [routerLink]="['/about']" [ngStyle]="{'cursor':'pointer'}">about me
+    </p>
+  </div>
+  <div class="link">
+    <p>相关链接</p>
+    <p  [routerLink]="['/blog']" [ngStyle]="{'cursor':'pointer'}">博客
+    </p>
+    <p  [routerLink]="['/daily']" [ngStyle]="{'cursor':'pointer'}">日记
+    </p>
+  </div>
+  <div class="connect">
+    <p>联系我</p>
+    <p>地址:广州番禺小龙村</p>
+    <p>QQ:648371113</p>
+    <p>邮箱:648371113@qq.com</p>
+  </div>
+
+</footer>
+<!-- <button nz-button nzType="primary">Primary</button> -->
+<app-collapse-page></app-collapse-page>

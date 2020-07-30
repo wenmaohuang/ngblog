@@ -1,0 +1,7 @@
+ <nz-collapse (mouseover)="handleOver()">
+   <nz-collapse-panel *ngFor="let panel of panels" [nzHeader]="panel.name" [nzActive]="panel.active">
+     <!-- <nz-collapse-panel *ngFor="let panel of panels" [nzHeader]="panel.name" [nzActive]="panel.active" [nzDisabled]="panel.disabled"> -->
+     <app-search-url></app-search-url>
+
+   </nz-collapse-panel>
+ </nz-collapse>

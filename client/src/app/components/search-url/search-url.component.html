@@ -1,0 +1,10 @@
+<!-- <p>search-url works!</p> -->
+<div class="search-url">
+  <input class="input" type="text" [(ngModel)]='keyword' (input)="handleSearchUrl()" (keyup.backspace)="handleSearchDelete()" (focus)="handleFocus()">
+  
+  <ul *ngFor="let key of urlKeyList">
+    <li>
+      <a [href]="urlresult[key]">{{key}}</a>
+    </li>
+  </ul>
+</div>
