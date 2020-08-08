@@ -1,10 +1,10 @@
 {
-  "name": "angularapp",
+  "name": "ngblog",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --aot",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -42,7 +42,7 @@
     "del": "~2.0.2",
     "eslint-plugin-angular": "~0.12.0",
     "estraverse": "~4.1.0",
-    "gulp": "~3.9.0",
+    "gulp": "^4.0.2",
     "gulp-angular-templatecache": "~1.8.0",
     "gulp-autoprefixer": "~3.0.2",
     "gulp-cssnano": "~2.1.1",
@@ -89,10 +89,5 @@
     "uglify-save-license": "~0.4.1",
     "webpack-stream": "~2.1.1",
     "wiredep": "~2.2.2"
-
-    
   }
-  
-    
-  
 }
